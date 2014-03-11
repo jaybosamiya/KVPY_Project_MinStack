@@ -1,3 +1,14 @@
+/*
+
+SinglyLinkedListStack declaration and definition
+
+Copyright 2013 Jay H. Bosamiya
+
+*/
+
+#ifndef FILE_SINGLYLINKEDLISTSTACK_H
+#define FILE_SINGLYLINKEDLISTSTACK_H
+
 template<class T> class SinglyLinkedListStack {
 	struct Node {
 		T value;
@@ -42,3 +53,5 @@ template<class T> bool SinglyLinkedListStack<T>::pop() {
 	delete tempNode;
 	return true;
 }
+
+#endif

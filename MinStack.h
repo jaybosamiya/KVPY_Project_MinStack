@@ -1,3 +1,14 @@
+/*
+
+MinStack declaration and definition
+
+Copyright 2013 Jay H. Bosamiya
+
+*/
+
+#ifndef FILE_MINSTACK_H
+#define FILE_MINSTACK_H
+
 #include "SinglyLinkedListStack.h"
 
 #define INFINITY 2147483647
@@ -49,3 +60,5 @@ template<class T> bool MinStack<T>::pop() {
 	}
 	return nStack.pop();
 }
+
+#endif
