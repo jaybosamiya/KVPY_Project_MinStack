@@ -29,3 +29,9 @@ Implement two stacks using linked lists. Call them nStack and mStack (for “nor
 + Space used – Θ(N) for nStack, O(N) for mStack
 
 The solution is better since it requires O(N) space for mStack instead of Θ(N) since it requires space of N in worst case (reverse sorted numbers are pushed) but lesser space in any other case
+
+
+License
+-------
+
+[MIT License](http://jay.mit-license.org/2013)
